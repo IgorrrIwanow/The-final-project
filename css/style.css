@@ -1105,7 +1105,8 @@
 
 .partners {
     width: 100%;
-    min-height: 488px;
+    padding: 140px 405px 139px 405px;
+    box-sizing: border-box;
     background-image: url(../img/background.jpg);
     background-size: cover;
     display: flex;
@@ -1181,6 +1182,24 @@
     font-style: normal;
     font-size: 14px;
     color: #d1d1d1;
+}
+
+.footer-top_column-left_read-more:hover{
+    color: #6f6458;
+}
+
+.footer-top_column-left_read-more:hover:after {
+    border: 5px solid transparent;
+    border-left: 8px solid #6f6458;
+}
+
+.footer-top_column-left_read-more:active{
+    color: #d1d1d1;
+}
+
+.footer-top_column-left_read-more:active:after {
+    border: 5px solid transparent;
+    border-left: 8px solid #d1d1d1;
 }
 
 .footer-top_column-left_read-more:after {
